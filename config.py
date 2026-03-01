@@ -12,6 +12,7 @@ MAGENTA = (255, 0, 255)
 GRAY = (128, 128, 128)
 LIGHT_GRAY = (200, 200, 200)
 DARK_GRAY = (50, 50, 50)
+DARK_RED = (150, 0, 0)
 
 
 # Screen dimensions
