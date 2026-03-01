@@ -15,8 +15,7 @@ You move through the material, grain by grain. Each has a different composition,
 - This is a turn-based strategy game where you can use materials science
 to get away from defects in a material
 - Stress meter per region
-- Grain boundaries are walls and you move through different grains for different 
-levels? Each grain has it's own thing like higher temp, high dislocation density, etc.
+- Grain boundaries are walls and you move through different grains for different levels? Each grain has it's own thing like higher temp, high dislocation density, etc.
 
 - Enemies
   - Dislocations
