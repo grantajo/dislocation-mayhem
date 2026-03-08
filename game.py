@@ -7,7 +7,7 @@ from player import Player
 from defects import Dislocation, Twin
 
 class Game:
-    def __init__(self):
+    def __init__(self) -> None:
         pygame.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         self.clock = pygame.time.Clock()
@@ -18,7 +18,7 @@ class Game:
         self.dislocations = [Dislocation(100, 100), Dislocation(200, 200), Dislocation(300, 300)]
         self.twins = [Twin(400, 400), Twin(500, 500), Twin(600, 600)]
 
-    def run(self):
+    def run(self) -> None:
         while self.running:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
