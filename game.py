@@ -24,7 +24,7 @@ class Game:
                 if event.type == pygame.QUIT:
                     self.running = False
             
-            keys = pygame.key.get_pressed()
+            keys: ScancodeWrapper = pygame.key.get_pressed()
             self.player.move(keys)
 
             self.screen.fill(LIGHT_GRAY)

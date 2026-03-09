@@ -10,7 +10,7 @@ class Dislocation:
         self.radius = 10
         self.color = RED
 
-    def draw(self, screen):
+    def draw(self, screen) -> None:
         pygame.draw.circle(screen, self.color, (self.x, self.y), self.radius)
 
 class Twin:
